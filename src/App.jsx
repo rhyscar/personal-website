@@ -1,14 +1,12 @@
 import React from 'react'
+import Navbar from './components/navbar';
 
 const App = () => {
   return (
     <>
-    <header>
-      <nav>
-        <h1>Rhys Carroll</h1>
-        <a>Hello</a>
-      </nav>
-    </header>
+     <header>
+        <Navbar name="Rhys Carroll" description="Developer"/>
+     </header>
     </>
   )
 }
