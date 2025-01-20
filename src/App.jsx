@@ -1,12 +1,16 @@
 import React from 'react'
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
     <>
-     <header>
-        <Navbar name="Rhys Carroll" description="Developer"/>
-     </header>
+      <header>
+        <Navbar name="Rhys Carroll" description="Developer" />
+      </header>
+      <main>
+        <Hero />
+      </main>
     </>
   )
 }
