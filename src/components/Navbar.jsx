@@ -12,6 +12,7 @@ const Navbar = (props) => {
                         <i className="fa fa-linkedin-square"></i>
                         <a href="https://www.linkedin.com/in/rhyscarroll/" target="_blank" className="text-lg pl-1">LinkedIn</a>
                     </div>
+                    <p className="text-xl">|</p>
                     <div className="hover:text-blue-400 transition duration-300">
                         <i className="fa fa-github"></i>
                         <a href="https://github.com/rhyscar" target="_blank" className="text-lg pl-1">GitHub</a>
