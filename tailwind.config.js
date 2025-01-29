@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      width: {
+        'custom-small': '13rem'
+      },
       fontFamily: {
         sans: ['Roboto', 'sans-serif']
       },

@@ -2,9 +2,11 @@ import React, { useRef } from 'react'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Skills from './components/Skills';
 
 const App = () => {
     const aboutRef = useRef(null);
+    const skillsRef = useRef(null);
 
     const scrollToAbout = () => {
       aboutRef.current?.scrollIntoView({ behavior: 'smooth'});
@@ -18,6 +20,7 @@ const App = () => {
       <main>
         <Hero scrollToAbout={scrollToAbout} />
         <About aboutRef={aboutRef} />
+        <Skills skillsRef={skillsRef} />
       </main>
     </div>
   )
