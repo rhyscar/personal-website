@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       width: {
-        'custom-small': '13rem'
+        'custom-small': '14rem'
       },
       fontFamily: {
         sans: ['Roboto', 'sans-serif']

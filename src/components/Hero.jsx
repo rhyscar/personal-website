@@ -2,7 +2,7 @@ const Hero = ({ scrollToSection, aboutRef}) => {
     return (
         <>  
             <div className="justify-between px-64 py-64 max-w-5xl min-h-screen snap-start">
-                <h1 className="text-5xl py-2">Computer Science Student</h1>
+                <h1 className="text-5xl py-2 font-semibold">Computer Science Student</h1>
                 <h1 className="text-4xl py-2">Committed to Excellence</h1>
                 <h2 className="text-lg py-2">Aspiring Software Engineer and second-year student at RMIT University in Melbourne, passionate about developing innovative solutions and continuously expanding my technical expertise.</h2>
                 <div className="flex gap-x-4 pr-16 py-2">

@@ -3,7 +3,7 @@ const Navbar = (props) => {
         <>
             <nav className="flex items-center justify-between px-6 py-2">
                 <div className="flex flex-col p-6">
-                    <h1 className="text-4xl"> {props.name} </h1>
+                    <h1 className="text-4xl font-semibold"> {props.name} </h1>
                     <h2 className="text-lg"> {props.description} </h2>
                 </div>
 
@@ -29,7 +29,7 @@ const Navbar = (props) => {
                         <a href="https://www.linkedin.com/in/rhyscarroll/" target="_blank" className="text-lg pl-1">LinkedIn</a>
                     </div>
                     <p className="text-xl">|</p>
-                    <div className="hover:text-blue-400 transition duration-300">
+                    <div className="hover:text-blue-400 transition duration-300">   
                         <i className="fa fa-github"></i>
                         <a href="https://github.com/rhyscar" target="_blank" className="text-lg pl-1">GitHub</a>
                     </div>
