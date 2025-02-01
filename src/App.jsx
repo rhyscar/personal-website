@@ -19,10 +19,10 @@ const App = () => {
 
   return (
     <div className="snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth scrollbar-hide">
-      <header className="fixed w-full bg-white">
+      <header className="fixed w-full bg-neutral-950">
         <Navbar name="Rhys Carroll" description="Developer" scrollToSection={scrollToSection} aboutRef={aboutRef} skillsRef={skillsRef} educationRef={educationRef} contactRef={contactRef}/>
       </header>
-      <main>
+      <main className="bg-neutral-950">
         <Hero scrollToSection={scrollToSection} aboutRef={aboutRef} />
         <About aboutRef={aboutRef} />
         <Skills skillsRef={skillsRef} />

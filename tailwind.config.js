@@ -10,7 +10,8 @@ export default {
         'custom-small': '14rem'
       },
       fontFamily: {
-        sans: ['Roboto', 'sans-serif']
+        sans: ['Roboto', 'sans-serif'],
+        alumni: ['Alumni Sans Pinstripe', 'sans-serif']
       },
       gridTemplateColumns: {
         '70/30': '70% 28%',
