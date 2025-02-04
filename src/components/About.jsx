@@ -6,7 +6,7 @@ import FadeUpOnScroll from "./FadeUpOnScroll";
 const About = ({ aboutRef }) => {
 
     const { ref, inView } = useInView({
-        threshold: 0.5
+        threshold: 0.25
     });
 
     return (

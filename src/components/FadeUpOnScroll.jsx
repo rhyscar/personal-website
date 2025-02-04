@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
-const FadeUpOnScroll = ({ children }) => {
+const FadeUpOnScroll = ({ children, triggerOnce = false }) => {
     const { ref, inView } = useInView({
         threshold: 0.5,
     });
@@ -11,6 +11,8 @@ const FadeUpOnScroll = ({ children }) => {
     useEffect(() => {
         if (inView) {
             setTriggerAnimation(true);
+        } else if (triggerOnce) {
+            setTriggerAnimation(false);
         }
     }, [inView]);
 
