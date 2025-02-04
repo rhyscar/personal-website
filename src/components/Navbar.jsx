@@ -36,7 +36,7 @@ const Navbar = (props) => {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex">
-                    <FadeUpOnScroll>
+                    <FadeUpOnScroll triggerOnce={true}>
                         <div className="flex gap-x-4 pr-12">
                             <div className="group transition">
                                 <button onClick={() => props.scrollToSection(props.aboutRef)} className="text-2xl font-semibold pl-1 font-alumni text-gray-300 group-hover:text-blue-400 duration-300 group-hover:text-glow">About Me</button>
