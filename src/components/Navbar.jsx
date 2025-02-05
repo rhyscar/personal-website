@@ -39,7 +39,7 @@ const Navbar = (props) => {
                     <FadeUpOnScroll triggerOnce={true}>
                         <div className="flex gap-x-4 pr-12">
                             <div className="group transition">
-                                <button onClick={() => props.scrollToSection(props.aboutRef)} className="text-2xl font-semibold pl-1 font-alumni text-gray-300 group-hover:text-blue-400 duration-300 group-hover:text-glow">About Me</button>
+                                <button onClick={() => props.scrollToSection(props.aboutRef)} className=" whitespace-nowrap text-2xl font-semibold pl-1 font-alumni text-gray-300 group-hover:text-blue-400 duration-300 group-hover:text-glow">About Me</button>
                             </div>
                             <p className="text-xl text-gray-300">|</p>
                             <div className="group transition">
@@ -54,12 +54,12 @@ const Navbar = (props) => {
                                 <button onClick={() => props.scrollToSection(props.contactRef)} className="text-2xl font-semibold pl-1 font-alumni text-gray-300 group-hover:text-blue-400 duration-300 group-hover:text-glow">Contact</button>
                             </div>
                             <p className="text-xl text-gray-300">|</p>
-                            <div className="group transition">
+                            <div className="group transition whitespace-nowrap">
                                 <i className="fa fa-linkedin-square text-gray-300 group-hover:text-blue-400 duration-300 group-hover:text-glow"></i>
                                 <a href="https://www.linkedin.com/in/rhyscarroll/" target="_blank" className="text-2xl font-semibold pl-1 font-alumni text-gray-300 group-hover:text-blue-400 duration-300 group-hover:text-glow">LinkedIn</a>
                             </div>
                             <p className="text-xl text-gray-300">|</p>
-                            <div className="group transition">
+                            <div className="group transition whitespace-nowrap">
                                 <i className="fa fa-github text-gray-300 group-hover:text-blue-400 duration-300 group-hover:text-glow"></i>
                                 <a href="https://github.com/rhyscar" target="_blank" className="text-2xl font-semibold pl-1 font-alumni text-gray-300 group-hover:text-blue-400 duration-300 group-hover:text-glow">GitHub</a>
                             </div>

@@ -11,7 +11,7 @@ const Contact = ({ contactRef }) => {
 
     return (
         <>
-            <div ref={(node) => { ref(node); contactRef.current = node; }} className="justify-between px-64 py-64 min-h-screen snap-start">
+            <div ref={(node) => { ref(node); contactRef.current = node; }} className="justify-between py-56 px-4 sm:px-64 sm:py-64 min-h-screen snap-start">
                 <h1 className="text-5xl pb-2 pt-16 w-custom-small font-semibold text-blue-400 text-glow font-alumni">
                 <TextScramble text="&%$(@#!#" desiredText="Contact" inView={inView} />
                 </h1>

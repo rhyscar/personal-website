@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <>
             <hr ref={ref} className="border-b-1 border-gray-300"></hr>
-            <div className="justify-between px-64 py-12 snap-start bg-gradient-to-b from-neutral-950 to-neutral-900">
+            <div className="justify-between px-12 py-4 sm:px-64 sm:py-12 snap-start bg-gradient-to-b from-neutral-950 to-neutral-900">
                 <h1 className="text-5xl w-custom-small font-bold text-blue-400 text-glow font-alumni">
                 <TextScramble text="&%$(@#!#" desiredText="Rhys" inView={inView} />
                 </h1>
