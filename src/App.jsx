@@ -18,7 +18,7 @@ const App = () => {
   };
 
   return (
-      <div className="snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth scrollbar-hide">
+      <div className="snap-y snap-mandatory h-screen overflow-x-hidden overflow-y-scroll scroll-smooth scrollbar-hide">
         <header className="fixed w-full bg-gradient-to-b from-neutral-950 to-neutral-900 z-50">
           <Navbar name="Rhys Carroll" description="Developer" scrollToSection={scrollToSection} aboutRef={aboutRef} skillsRef={skillsRef} educationRef={educationRef} contactRef={contactRef} />
         </header>
