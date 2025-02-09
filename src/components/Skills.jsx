@@ -24,7 +24,7 @@ const Skills = ({ skillsRef }) => {
     return (
         <>
             <div ref={(node) => { ref(node); skillsRef.current = node; }} className="sm:flex flex-wrap snap-start min-h-screen">
-                <div className="justify-between sm:px-64 sm:py-64 px-4 pt-56">
+                <div className="justify-between sm:px-64 sm:py-64 xl:px-32 2xl:px-64 px-4 pt-56">
                     <h1 className="text-5xl pb-2 pt-16 w-custom-small font-extrabold font-alumni text-glow text-blue-400">
                         <TextScramble text="&%$(@#!#" desiredText="Skills" inView={inView} />
                     </h1>
@@ -32,7 +32,7 @@ const Skills = ({ skillsRef }) => {
                         <h2 className="text-2xl sm:text-3xl font-alumni text-gray-300 font-semibold pt-4 max-w-xl">I have a strong foundation in Java, with extensive experience in both backend development and object-oriented programming. I also have experience working with foundational web technologies like HTML, CSS, JavaScript, PHP, as well as popular frameworks like Bootstrap and jQuery for building interactive and responsive websites. Additionally, I am proficient in React and Tailwind CSS, I also have experience working with SQL databases for data management, as well as Python and Lua for scripting and automation.</h2>
                     </FadeUpOnScroll>
                 </div>
-                <div className="flex items-center justify-center md:ml-40 lg:ml-64 xl:ml-0 sm:space-x-12 sm:py-10 pb-10">
+                <div className="flex items-center justify-center md:ml-40 xl:ml-20 2xl:ml-12 xl:space-x-0 sm:space-x-12 sm:py-10 pb-10">
                     <FadeUpOnScroll>
                         <div className="flex flex-col space-y-6 font-alumni text-gray-300">
                             <Skill name="Java" link={JavaLogo} size="w-14 h-14" />
