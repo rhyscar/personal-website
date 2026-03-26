@@ -18,9 +18,10 @@ const Education = ({ educationRef }) => {
                 <FadeUpOnScroll>
                     <h2 className="text-4xl font-extrabold text-gray-300 font-alumni">Bachelor of Computer Science</h2>
                     <h3 className="text-2xl sm:text-3xl font-extrabold text-gray-300 font-alumni">RMIT University | Melbourne, Victoria | 2025 – 2026</h3>
-                    <h3 className="text-xl font-extrabold text-gray-300 font-alumni pb-6">WAM: 90 | GPA: 4.0</h3>
+                    <h3 className="text-xl font-extrabold text-gray-300 font-alumni pb-6">WAM: 91 | GPA: 4.0, Dean's List 2025</h3>
                     <h2 className="text-4xl font-extrabold text-gray-300 font-alumni">Associate Degree in Information Technology with Distinction</h2>
                     <h3 className="text-2xl sm:text-3xl font-extrabold text-gray-300 font-alumni">RMIT University | Melbourne, Victoria | 2023 – 2024</h3>
+                    <h3 className="text-xl font-extrabold text-gray-300 font-alumni pb-6">Vice-Chancellor's List for Academic Excellence in 2024</h3>
                 </FadeUpOnScroll>
             </div>
         </>
